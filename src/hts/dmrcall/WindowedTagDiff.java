@@ -1,4 +1,4 @@
-package dmrcall;
+package hts.dmrcall;
 
 import io.IOTools;
 
@@ -7,10 +7,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import gfftools.AbstractTransducer;
-import gfftools.GFFUtils;
-
-import net.derkholm.nmica.maths.MathsTools;
+import gff.GFFUtils;
 
 import org.biojava.bio.program.gff.GFFDocumentHandler;
 import org.biojava.bio.program.gff.GFFRecord;
