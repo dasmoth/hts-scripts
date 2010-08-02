@@ -17,6 +17,7 @@
   </path>
 
   <target name="compile-java" description="Compiles the java source code">
+    <mkdir dir="${bin.dir}" />
     <apt
       destdir="${bin.dir}"
       deprecation="false"
